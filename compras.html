@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <title>SUPERMERCADO</title>
 </head>
+
 <body>
     <header>SUPERMERCADO</header>
     <nav>
@@ -21,9 +22,27 @@
         </a>
     </nav>
     <div class="contenedorp">
-        <div class="contenedorCompras"></div>
+        <div class="contenedorCompras">
+            <div class="contenedor">
+                <div class="prod">
+                    <img class="foto" src="./css/imágenes/Tirabuzón.png" alt="Fideos tirabuzón" />
+                    <p>Fideos Tirabuzon N28 Matarazzo 500 Gr.</p>
+                    <p class="precio">$<span>1400</span></p>
+                    <input type="number" name="cant" id="cant" min="0" value="0" required>
+                    <button type="button">comprar</button>
+                </div>
+                <p>Total: $<span id="total"> 000</span></p>
+
+            </div>
+
+        </div>
     </div>
     <footer>
         Espacio para pie de página.
     </footer>
+
+
+    <script src="./script.js"></script>
 </body>
+
+</html>

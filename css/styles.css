@@ -126,9 +126,60 @@ footer {
     width: 1900px;
     height: 900px;
     border-radius: 20px;
-    border-style: solid;
+    border: 3px solid;
     border-color: #000000;
-    border-width: 8px;
+ /*   border-width: 8px;*/
+    display: grid;
+}
+
+.prod {
+    border: 2px solid #000;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: auto;
+    margin: 5px;
+    font-size: 19px;
+    line-height: 1.5; 
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center; 
+}
+
+
+.foto {
+    margin-top: 10px;
+    width: 150px;
+    height: auto;
+}
+
+.precio {
+    color: green;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    margin-top: -15px; /* esto no sé si puede usarse en negativo, pero no sé cómo achicar ese espacio*/
+    margin-bottom: 0px;
+}
+
+input[type="number"], button {
+    width: 110px; 
+    padding: 10px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    margin-top: 10px; 
+    cursor: pointer; 
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+}
+
+button:hover {
+    background-color: #218838; 
 }
 
 .contenedorContacto {
