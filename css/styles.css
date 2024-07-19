@@ -131,12 +131,19 @@ footer {
  /*   border-width: 8px;*/
     display: grid;
 }
+.contenedorProductos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 .prod {
     border: 2px solid #000;
     background-color: rgb(255, 255, 255);
     width: 250px;
     height: auto;
+    margin-top: 10px;
     margin: 5px;
     font-size: 19px;
     line-height: 1.5; 
@@ -145,11 +152,10 @@ footer {
     text-align: center; 
 }
 
-
 .foto {
     margin-top: 10px;
     width: 150px;
-    height: auto;
+    height: 188px;
 }
 
 .precio {

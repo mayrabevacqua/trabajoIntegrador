@@ -1,6 +1,8 @@
+/* ---------- JS DE COMPRAS ---------- */
+
 let arrProductos=["Tirabuzón", "Producto x"]
 let arrPrecio=   [1400,         800]
-let arrCant=      [100,         50]
+let arrCant=      [10,         50]
 
 document.querySelector("div button").addEventListener("click", ()=>{
     let cantidad=document.querySelector("div input").value;
@@ -15,3 +17,8 @@ document.querySelector("div button").addEventListener("click", ()=>{
 function comprar(cantidad) {
     document.getElementById("total").innerText=cantidad*arrPrecio[0];
 }
+
+/* ---------- JS DE CONTACTO ---------- */
+
+
+/* ---------- JS DE INDEX ---------- */
