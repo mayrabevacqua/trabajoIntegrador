@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/contactoStyles.css">
     <title>SUPERMERCADO</title>
 </head>
 <body>
-    <header>SUPERMERCADO</header>
+    <header>
+        <img src="./css/imágenes/logo.png" alt="SUPERMERCADO" class="logo"> 
+       </header>
     <nav>
         <a href="index.html">
             <img src="./css/imágenes/inicio.png" alt="Inicio" class="icono"> INICIO
@@ -24,11 +26,12 @@
         <div class="contenedorContacto">
             <h1>Contactá con nosotros</h1>
             <div class="entradas">
-                <input type="text" placeholder="Nombre">
-                <input type="text" placeholder="Apellido">
-                <input type="email" placeholder="Email">
-                <input type="tel" placeholder="Cod. Area (sin 0)" maxlength="4">
-                <input type="tel" placeholder="Cel (sin 15)" maxlength="8">
+                <input class="campo" type="text" placeholder="Nombre" required>
+                <input class="campo" type="text" placeholder="Apellido" required>
+                <input class="campo" type="email" placeholder="Email" required>
+                <input class="campo" type="tel" placeholder="Cod. Area (sin 0)" maxlength="4" required>
+                <input class="campo" type="tel" placeholder="Cel (sin 15)" maxlength="6" required>
+                
                 <button>Enviar</button>
             </div>
         </div>
@@ -38,5 +41,5 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script> 
-    <script src="./script.js"></script>
+    <script src="./js/contacto.js"></script>
 </body>
