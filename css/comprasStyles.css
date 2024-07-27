@@ -154,17 +154,61 @@ button:hover {
     background-color: #218838;
 }
 
+
 footer {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center; 
     width: 100%;
-    /*position: fixed; /* posicion fija */
     left: 0px;
-    /* todo a la izquierda */
-    bottom: 0px;
-    /* abajo */
+    bottom: 0px; 
     padding: 30px;
-    margin-top: 30px;
     background: #333334;
     color: #ffffff;
     font-weight: bold;
+    height: 150px; 
+    box-sizing: border-box; 
+}
+
+
+.logoFooter {
+    width: 250px;
+    height: auto; 
+}
+
+
+.divSucursales, .divHorarios, .divRedes {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 15px;
+    margin: 0 20px;
     text-align: center;
+}
+
+.divSucursales p, .divHorarios p {
+    margin: 5px 0; 
+    line-height: 1.5; 
+}
+.divRedes {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    width: auto; 
+    height: 110px; 
+    margin-top: 15px;
+}
+
+.logosRedes {
+    margin: 0 8px; 
+    width: 50px;
+    height: 50px; 
+    transition: transform 0.3s ease; 
+}
+
+.logosRedes:hover {
+    transform: scale(1.3); 
 }
