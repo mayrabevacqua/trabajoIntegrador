@@ -1,6 +1,6 @@
 let arrProductos=["Tirabuzón", "Producto x"]
-let arrPrecio=   [1400,         800]
-let arrCant=      [10,         50]
+let arrPrecio=[1400,800]
+let arrCant=[10,50]
 
 document.querySelector("div button").addEventListener("click", ()=>{
     let cantidad=document.querySelector("div input").value;
