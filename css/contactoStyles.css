@@ -1,11 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* hace que desaparezca la barra de desplazamiento horizontal */
+    overflow-x: hidden;
+    /* hace que desaparezca la barra de desplazamiento horizontal */
     font-family: Verdana, serif;
     background-image: url("./imágenes/fondo.jpg");
     min-height: 100vh;
-    
+
 }
 
 header {
@@ -33,7 +34,7 @@ nav {
     display: flex;
     flex-direction: row;
     background: #ccccccd3;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 nav a {
@@ -71,19 +72,19 @@ nav a:hover {
 }
 
 .contenedorContacto {
-    margin: 5px; 
-    margin-right: 15px; 
-    background: #ffeab1c9; 
+    margin: 5px;
+    margin-right: 15px;
+    background: #ffeab1c9;
     color: #000000;
     width: 100%;
     height: 700px;
     border-radius: 20px;
-    border: 4px solid #000000; 
+    border: 4px solid #000000;
 
 }
 
 
-h1{
+h1 {
     margin-top: 50px;
     margin-bottom: -5px;
     text-align: center;
@@ -92,20 +93,28 @@ h1{
 .entradas {
     background: transparent;
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.campo{
+.campo {
+    border-radius: 10px;
     margin: 5px;
     background: white;
     width: 500px;
-    height: 30px;
+    height: 50px;
 }
 
+.campoC {
+    border-radius: 10px;
+    margin: 5px;
+    background: white;
+    width: 500px;
+    height: 300px;
+}
 
 button {
     width: 110px;
@@ -123,63 +132,93 @@ button {
 
 button:hover {
     background-color: #218838;
-} 
+}
 
+.contenedorInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    margin-right: 15px;
+    background: #105801c0;
+    color: #000000;
+    width: 700px;
+    height: 700px;
+    border-radius: 20px;
+    border: 4px solid #000000;
+
+}
+
+h2,
+p,
+h3 {
+    color: white;
+    font-weight: bold;
+}
+
+h3 {
+    text-decoration: underline;
+}
 
 footer {
     display: flex;
-    flex-direction: row; 
-    justify-content: space-around; 
-    align-items: center; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
     left: 0px;
-    bottom: 0px; 
+    bottom: 0px;
     padding: 30px;
     background: #333334;
     color: #ffffff;
     font-weight: bold;
-    height: 150px; 
-    box-sizing: border-box; 
+    height: 150px;
+    box-sizing: border-box;
 }
 
 
 .logoFooter {
     width: 250px;
-    height: auto; 
+    height: auto;
 }
 
 
-.divSucursales, .divHorarios, .divRedes {
+.divSucursales,
+.divHorarios,
+.divRedes {
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-size: 15px;
     margin: 0 20px;
     text-align: center;
 }
 
-.divSucursales p, .divHorarios p {
-    margin: 5px 0; 
-    line-height: 1.5; 
+.divSucursales p,
+.divHorarios p {
+    margin: 5px 0;
+    line-height: 1.5;
 }
+
 .divRedes {
-    display: flex; 
-    flex-direction: row; 
-    justify-content: center; 
-    align-items: center; 
-    width: auto; 
-    height: 110px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 110px;
     margin-top: 15px;
 }
 
 .logosRedes {
-    margin: 0 8px; 
+    margin: 0 8px;
     width: 50px;
-    height: 50px; 
-    transition: transform 0.3s ease; 
+    height: 50px;
+    transition: transform 0.3s ease;
 }
 
 .logosRedes:hover {
-    transform: scale(1.3); 
+    transform: scale(1.3);
 }
