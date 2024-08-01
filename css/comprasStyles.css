@@ -259,6 +259,10 @@ button:hover {
     background-color: #218838;
 }
 
+.precioTotal{
+    font-weight: bold;
+    font-size: 20px;
+}
 
 footer {
     display: flex;
