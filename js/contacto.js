@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let email = document.querySelector('input[type="email"][placeholder="Email"]');
     let codArea = document.querySelector('input[type="tel"][placeholder="Cod. Area (sin 0)"]');
     let celular = document.querySelector('input[type="tel"][placeholder="Cel (sin 15)"]');
-    let cosulta = document.querySelector('input[type="text"][placeholder="Ingrese su consulta"]');
+    let consulta = document.querySelector('input[type="text"][placeholder="Ingrese su consulta"]');
     let btnEnviar = document.querySelector('button');
 
     btnEnviar.addEventListener("click", (e) => {
