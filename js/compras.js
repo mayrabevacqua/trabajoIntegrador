@@ -1,6 +1,6 @@
 let lista = document.getElementById("lista");
 
-const productos=["Fideos Tirabuzon N28 Matarazzo 500 Gr.", "Aceite de girasol Natura 1,5L.", "Aceite de oliva Cañuelas extra virgen 0,5L.", 
+const productos=["Fideos Tirabuzon Matarazzo 500 Gr.", "Aceite de girasol Natura 1,5L.", "Aceite de oliva Cañuelas extra virgen 0,5L.", 
     "Azúcar común La Perla tipo A 1 Kg.", "Té en saquitos Taragüi x 50u", "Nescafé Dolca original 170 Gr.", "Mate cocido saquitos Unión x 50u", 
     "Galletitas Oreo original 354 Gr.", "Yerba mate Playadito suave con palo 1Kg.", "Salchichas Vienissima flow pack 6u", 
     "Gaseosa Coca Cola sabor original 2,25L.", "Harina de trigo 000 Favorita 1Kg."];
